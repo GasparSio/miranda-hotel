@@ -27,3 +27,15 @@ const clickHeaderSecIcon = headerSecIcon.addEventListener('click', () => {
         cerrarHeader()
     }
 })
+
+
+//SCHEDULE 
+// document.addEventListener("DOMContentLoaded", function () {
+//     const calendarioBtn = document.getElementById("calendario-btn");
+//     const fechaInput = document.getElementById("fecha");
+  
+//     calendarioBtn.addEventListener("click", function () {
+//       // Abrir el calendario al hacer clic en el botón
+//       fechaInput.focus();
+//     });
+//   });
