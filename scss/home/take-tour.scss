@@ -2,7 +2,7 @@
 
 .taketour_section{
     width: 100%;
-    background-color: #333333;
+    background-color: $background-grey;
 }
 .taketour_section-content{
     width: 90%;
@@ -15,7 +15,7 @@
         font-family: $archivo-font;
         font-size: 13px;
         font-weight: $weight-700;
-        color: #FFFFFF;
+        color: $background-white;
         letter-spacing: 2.8px;
         margin-top: 50px;
     }
@@ -23,7 +23,7 @@
         font-family: $old-standard-font;
         font-size: 51px;
         font-weight: $weight-400;
-        color: #FFFFFF;
+        color: $background-white;
         line-height: 60px;
         letter-spacing: -1.2px;
         margin-top: 25px;
@@ -36,8 +36,8 @@
     margin-top: 30px;
 }
 .button-taketour{
-    background-color: #BEAD8E;
-    color: #FFFFFF;
+    background-color: $color-botton;
+    color: $background-white;
     font-family: $archivo-font;
     font-weight: $weight-700;
     width: 217px;
@@ -46,18 +46,18 @@
 }
 .button-learnmore{
     background-color: #bead8e00;
-    color: #FFFFFF;
+    color: $background-white;
     font-family: $archivo-font;
     font-weight: $weight-700;
     width: 217px;
     height: 60px;
-    border: 1px solid #BEAD8E;
+    border: 1px solid $color-botton;
     margin: 18px 0 50px;
 }
 
 @media only screen and (min-width: 1000px){
     .taketour_section-header-rect{
-        background-color: #222222;
+        background-color: $background-black;
         height: 100px;
         width: 100%;
     }

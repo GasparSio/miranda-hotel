@@ -1,0 +1,60 @@
+@import '../variables.scss';
+
+.about__section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    max-width: 320px;
+    background-color: $background-grey-light;
+    margin-top: 40px;
+}
+.about__section-info{
+    margin-top: 30px;
+    h2{
+        width: 90%;
+        margin: auto;
+        font-family: $archivo-font;
+        font-weight: $weight-700;
+        font-size: 14px;
+        line-height: 15.23px;
+        letter-spacing: 2.8px;
+        color: $letterColor-grey-light;
+    }
+    h1{
+        width: 90%;
+        margin: auto;
+        font-family: $old-standard-font;
+        font-weight: $weight-400;
+        font-size: 54px;
+        line-height: 90px;
+        letter-spacing: -2.4px;
+        color: $letterColor-black;
+    }
+    p{
+        width: 90%;
+        margin: auto;
+        font-family: $archivo-font;
+        font-weight: $weight-400;
+        font-size: 14px;
+        line-height: 24px;
+        color: $letterColor-grey-light;
+    }
+}
+.about__section-info-button{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    button{
+        width: 216px;
+        height: 60px;
+        background-color: $color-botton;
+        color: $background-white;
+        border: none;
+        font-size: 14px;
+        font-family: $archivo-font;
+        font-weight: $weight-700;
+        line-height: 15.23px;
+        letter-spacing: 2.8px;
+    }
+}
