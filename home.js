@@ -29,13 +29,25 @@ const clickHeaderSecIcon = headerSecIcon.addEventListener('click', () => {
 })
 
 
-//SCHEDULE 
-// document.addEventListener("DOMContentLoaded", function () {
-//     const calendarioBtn = document.getElementById("calendario-btn");
-//     const fechaInput = document.getElementById("fecha");
-  
-//     calendarioBtn.addEventListener("click", function () {
-//       // Abrir el calendario al hacer clic en el botón
-//       fechaInput.focus();
-//     });
-//   });
+//SLIDER
+const slider = document.querySelector(".slider-images");
+const prevBtn = document.querySelector(".prev-btn");
+const nextBtn = document.querySelector(".next-btn");
+
+const slideWidth = slider.clientWidth;
+let currentIndex = 0;
+
+prevBtn.addEventListener("click", () => {
+  currentIndex = (currentIndex - 1 + slider.children.length) % slider.children.length;
+  updateSliderPosition();
+});
+
+nextBtn.addEventListener("click", () => {
+  currentIndex = (currentIndex + 1) % slider.children.length;
+  updateSliderPosition();
+});
+
+function updateSliderPosition() {
+  const translateXValue = -currentIndex * slideWidth;
+  slider.style.transform = `translateX(${translateXValue}px)`;
+}
