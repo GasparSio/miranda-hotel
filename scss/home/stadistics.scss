@@ -9,6 +9,7 @@
     margin: auto;
     align-items: center;
     padding-bottom: 40px;
+    margin-bottom: 60px;
 }
 .stadistics__section{
     display: flex;
@@ -45,7 +46,9 @@
 @media only screen and (min-width: 1000px){
     .stadistics__section-container{
         flex-direction: row;
-        max-width: 100%;
         justify-content: space-evenly;
+        margin: auto;
+        width: 90%;
+        max-width: 100%;
     }
 }

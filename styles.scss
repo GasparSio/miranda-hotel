@@ -1,5 +1,6 @@
 @import './scss/variables.scss';
-@import './scss/home/header.scss';
+@import './scss/header.scss';
+@import './scss/footer.scss';
 @import './scss/home/take-tour.scss';
 @import './scss/home/schedule.scss';
 @import './scss/home/about-us.scss';
@@ -8,6 +9,10 @@
 @import './scss/home/features.scss';
 @import './scss/home/food.scss';
 @import './scss/home/stadistics.scss';
+@import './scss/about-us/about.scss';
+@import './scss/about-us/video.scss';
+@import './scss/about-us/services.scss';
+@import './scss/about-us/resto.scss';
 
 html, * { 
     box-sizing: border-box;
