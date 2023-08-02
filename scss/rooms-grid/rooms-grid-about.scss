@@ -1,14 +1,14 @@
 @import '../variables.scss';
 
-.about__about__section{
+.rooms__about__section{
     background-color: $background-grey;
     width: 100%;
 }
-.about__about__section-general{
+.rooms__about__section-general{
     display: flex;
     flex-direction: column;
 }
-.about__about__section-info{
+.rooms__about__section-info{
     max-width: 320px;
     margin: auto;
     height: 250px;
@@ -32,7 +32,7 @@
         color: $background-white;
     }
 }
-.about__about__section-links{
+.rooms__about__section-links{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -43,7 +43,7 @@
     width: 156px;
     height: 49px;
 }
-.about-link-home{
+.rooms-link-home{
     font-size: 16px;
     font-family: $archivo-font;
     font-weight: $weight-700;
@@ -52,7 +52,7 @@
     color: $background-black;
     text-decoration: none;
 }
-.about-link-about{
+.rooms-link-about{
     font-size: 16px;
     font-family: $archivo-font;
     font-weight: $weight-700;
@@ -64,7 +64,7 @@
 
 
 @media only screen and (min-width: 1000px){
-    .about__about__section-info{
+    .rooms__about__section-info{
         max-width: 582px;
         margin: 0;
         display: flex;
