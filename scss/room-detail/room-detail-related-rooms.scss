@@ -23,6 +23,7 @@
     margin: auto;
     background-color: $background-white;
     margin-top: 50px;
+    margin-bottom: 40px;
     max-width: 320px;
 }
 
@@ -35,7 +36,7 @@
 .room__detail-cards-container{
     display: flex;
     transition: transform 0.3s ease;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .room__detail-rooms-slider{
     margin-top: 33px;
@@ -128,5 +129,28 @@
 }
 
 @media only screen and (min-width: 1000px){
-
+    .room__detail-related-rooms{
+        max-width: 600px;
+        margin-left: 5%;
+    }
+    .room__detail-title{
+        h1{
+            margin: 15px 25px;
+        }
+    }
+    .room__detail-line{
+        max-width: 550px;
+        margin-left: 25px;
+    }
+    .prev-btn-detail,
+    .next-btn-detail{
+        display: none;
+    }
+    .room__detail-rooms-slider{
+        flex: 0 0 300px;
+        img{
+            margin: auto;
+            max-width: 80%;
+        }
+    }
 }
