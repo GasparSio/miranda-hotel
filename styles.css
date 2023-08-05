@@ -2832,6 +2832,238 @@ body {
     max-width: 80%;
   }
 }
+.offers__room-section {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  position: relative;
+}
+
+.offers__room-info-container {
+  margin: auto;
+  position: relative;
+  margin-top: 30px;
+}
+
+.offers__room-image {
+  max-width: 320px;
+}
+.offers__room-image img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.offers__room-title {
+  margin-top: 20px;
+}
+.offers__room-title h2 {
+  font-family: Archivo;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15.23px;
+  letter-spacing: 2.8px;
+  color: #777777;
+}
+.offers__room-title h1 {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1.44px;
+  color: #222222;
+  margin-top: 37px;
+  max-width: 265px;
+}
+
+.offers__room-price-high {
+  position: absolute;
+  top: 59%;
+  right: 4%;
+}
+
+.offers__room-price-low {
+  position: absolute;
+  top: 65%;
+  right: 4%;
+}
+
+.price-high-number {
+  font-family: Archivo;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 25.02px;
+  color: #BEAD8E;
+  text-decoration: line-through;
+}
+
+.price-high-text {
+  font-family: Archivo;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 11.97px;
+  color: #BEAD8E;
+  text-decoration: line-through;
+}
+
+.price-low-number {
+  font-family: Archivo;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 32.64px;
+  color: #DE5777;
+}
+
+.price-low-text {
+  font-family: Archivo;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 11.97px;
+  color: #DE5777;
+}
+
+.offers__room-text-container {
+  max-width: 320px;
+  margin: auto;
+}
+.offers__room-text-container p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+}
+
+.offers__room-line {
+  display: none;
+  width: 560px;
+  height: 2px;
+  background-color: #ECECEC;
+  margin: auto;
+}
+
+@media only screen and (min-width: 1000px) {
+  .offers__room-image {
+    max-width: 640px;
+  }
+  .offers__room-price-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    max-width: 600px;
+    height: 125px;
+    margin: auto;
+    margin-top: -60px;
+    border-top: 4px solid #BEAD8E;
+    padding: 0 20px;
+  }
+  .offers__room-price-section {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .offers__room-price-high {
+    display: flex;
+    position: relative;
+  }
+  .offers__room-price-low {
+    display: flex;
+    position: relative;
+  }
+  .offers__room-title {
+    margin-top: 20px;
+    width: 70%;
+    margin-top: 0px;
+  }
+  .offers__room-title h1 {
+    margin-top: 10px;
+    max-width: 100%;
+  }
+  .offers__room-line {
+    display: flex;
+  }
+  .offers__room-text-amen-container {
+    display: flex;
+    margin: auto;
+    width: 70%;
+    justify-content: space-between;
+    max-width: 600px;
+    background-color: white;
+    padding: 40px 20px;
+    position: relative;
+  }
+  .offers__room-text-container {
+    margin: 0;
+    max-width: 240px;
+  }
+  .offers__room-text-container p {
+    font-size: 10px;
+  }
+}
+.offers__room-amenities-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 30px;
+  max-width: 300px;
+  margin: 30px auto;
+}
+
+.offers__room-amenities-info {
+  width: 50%;
+  margin-bottom: 10px;
+}
+.offers__room-amenities-info img {
+  padding-right: 2px;
+}
+.offers__room-amenities-info span {
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17.58px;
+  color: #777777;
+}
+
+.offers__room-button-container {
+  width: 90%;
+  margin: auto;
+  max-width: 300px;
+  margin-bottom: 40px;
+}
+.offers__room-button-container button {
+  width: 216px;
+  height: 60px;
+  background-color: #BEAD8E;
+  color: #FFFFFF;
+  border: none;
+  font-size: 14px;
+  font-family: Archivo;
+  font-weight: 700;
+  line-height: 15.23px;
+  letter-spacing: 2.8px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .offers__room-amenities-container {
+    max-width: 265px;
+    margin: 0px;
+    height: 225px;
+  }
+  .offers__room-amenities-info {
+    margin-bottom: 0;
+  }
+  .offers__room-amenities-info span {
+    font-size: 11px;
+  }
+  .offers__room-button-container {
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 15px;
+  }
+}
 html, * {
   box-sizing: border-box;
   margin: 0;
