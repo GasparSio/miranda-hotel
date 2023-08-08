@@ -97,14 +97,23 @@
     .schedule__section{
         display: flex;
         flex-direction: row;
+        justify-content: center;
     }
     .schedule__section-calendar{
         flex-direction: row;
-        width: 70%;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        width: 776px;
         padding-top: 0;
         max-width: none;
+        margin: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
         justify-content: space-evenly;
+    }
+    .schedule__section-button{
+        width: 300px;
+        margin: 0;
+        max-width: none;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 }

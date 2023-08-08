@@ -6,6 +6,7 @@
     margin: auto;
     max-width: 320px;
     padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .form-input{
@@ -25,7 +26,6 @@
         font-weight: $weight-400;
         line-height: 18.75px;
         max-width: 300px;
-        word-wrap: break-word;
     }
     img{
         position: absolute;
@@ -35,7 +35,9 @@
         z-index: 1;
     }
 }
-
+.form-input input:focus{
+    outline: none;
+}
 .contact__form-message{
     width: 90%;
     height: 175px;
@@ -90,5 +92,35 @@
     }
 }
 @media only screen and (min-width: 1000px){
-
+    .contact__section-form{
+        max-width: 100%;
+        form{
+            width: 70%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 720px;
+        }
+    }
+    .form-input{
+        width: 45%;
+        input{
+            max-width: 320px;
+        }
+    }
+    .contact__form-message{
+        width: 100%;
+        max-width: 500px;
+        textarea{
+            padding-left: 22px;
+        }
+    }
+    .contact__form-message textarea::placeholder{
+        position: absolute;
+        left: 5%;
+    }
+    .contact__form-button{
+        display: flex;
+        justify-content: center;
+    }
 }
