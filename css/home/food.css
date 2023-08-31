@@ -1,0 +1,219 @@
+@charset "UTF-8";
+.food__section {
+  width: 90%;
+  margin: auto;
+  background-color: #FFFFFF;
+  max-width: 320px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.icon-food {
+  position: absolute;
+  width: 65px;
+  right: 0%;
+  top: -5%;
+}
+
+.food__section-info {
+  padding-top: 30px;
+}
+.food__section-info h2 {
+  text-align: center;
+  font-family: Archivo;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15.23px;
+  letter-spacing: 2.8px;
+  color: #777777;
+}
+.food__section-info h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Old Standard TT";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  color: #222222;
+}
+
+.food__section-cards-container {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+.food__cards-container {
+  display: flex;
+  transition: transform 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.card-food {
+  flex: 0 0 300px;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 8px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border-radius: 7px;
+}
+
+.card-img-food {
+  width: 50%;
+  overflow: hidden;
+}
+.card-img-food img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.section-food {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section-food-info {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+.section-food-info h1 {
+  font-family: "Old Standard TT";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.72px;
+  color: #222222;
+}
+.section-food-info p {
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #222222;
+  margin-top: 9px;
+}
+
+.food__cards-container-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.prev-btn2 {
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: 1px solid rgba(128, 128, 128, 0.568627451);
+}
+
+.next-btn2 {
+  border: none;
+  background-color: #BEAD8E;
+  margin-left: 20px;
+}
+
+.food__section-slider {
+  margin-top: 12px;
+  position: relative;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.food__section-slider-wrapper {
+  display: flex;
+  aspect-ratio: 12/9;
+  overflow-x: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  border-radius: 4px;
+}
+.food__section-slider-wrapper img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.food__section-slider-nav {
+  display: flex;
+  column-gap: 10px;
+  position: absolute;
+  bottom: 4%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+.food__section-slider-nav a {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  opacity: 1;
+  transition: opacity ease 1s;
+}
+
+.food__section-slider-nav a:hover {
+  background-color: #BEAD8E;
+}
+
+@media only screen and (min-width: 1000px) {
+  .icon-food {
+    position: absolute;
+    width: 118px;
+    left: 2%;
+    top: -8%;
+  }
+  .food__section {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 60px;
+    background-color: #FFFFFF;
+  }
+  .food__section-cards-container {
+    overflow: visible;
+  }
+  .food__cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .card-food {
+    max-width: 300px;
+    margin: 0;
+    background-color: #FFFFFF;
+  }
+  .prev-btn2,
+  .next-btn2 {
+    display: none;
+  }
+  .food__section-slider {
+    max-width: 900px;
+  }
+  .food__section-slider-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    aspect-ratio: auto;
+    gap: 20px; /* Espacio entre las imágenes */
+    overflow: hidden;
+  }
+  .food__section-slider-wrapper img {
+    width: 100%; /* Imágenes que ocupan el 100% del ancho */
+    height: 200px;
+  }
+  .food__section-slider-nav {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=food.css.map */

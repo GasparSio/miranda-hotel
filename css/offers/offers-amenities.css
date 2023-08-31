@@ -1,0 +1,63 @@
+.offers__room-amenities-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 30px;
+  max-width: 300px;
+  margin: 30px auto;
+}
+
+.offers__room-amenities-info {
+  width: 50%;
+  margin-bottom: 10px;
+}
+.offers__room-amenities-info img {
+  padding-right: 2px;
+}
+.offers__room-amenities-info span {
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17.58px;
+  color: #777777;
+}
+
+.offers__room-button-container {
+  width: 90%;
+  margin: auto;
+  max-width: 300px;
+  margin-bottom: 40px;
+}
+.offers__room-button-container button {
+  width: 216px;
+  height: 60px;
+  background-color: #BEAD8E;
+  color: #FFFFFF;
+  border: none;
+  font-size: 14px;
+  font-family: Archivo;
+  font-weight: 700;
+  line-height: 15.23px;
+  letter-spacing: 2.8px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .offers__room-amenities-container {
+    max-width: 265px;
+    margin: 0px;
+    height: 225px;
+  }
+  .offers__room-amenities-info {
+    margin-bottom: 0;
+  }
+  .offers__room-amenities-info span {
+    font-size: 11px;
+  }
+  .offers__room-button-container {
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 15px;
+  }
+}
+
+/*# sourceMappingURL=offers-amenities.css.map */

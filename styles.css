@@ -154,11 +154,6 @@
   margin: auto;
 }
 
-.footer__section-background-image {
-  position: absolute;
-  max-width: 100%;
-}
-
 .footer__section-info-container {
   width: 90%;
   display: flex;
@@ -406,10 +401,11 @@
 
 @media only screen and (min-width: 1000px) {
   .footer__section {
-    max-width: 90%;
+    max-width: 100%;
     display: flex;
     margin: auto;
     margin-top: 35px;
+    padding: 0 30px;
   }
   .footer__section2 {
     max-width: 100%;
