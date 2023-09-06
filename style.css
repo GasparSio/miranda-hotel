@@ -3391,6 +3391,7 @@ body {
   font-weight: 400;
   line-height: 18.75px;
   padding-top: 23px;
+  resize: none;
 }
 
 .contact__form-message textarea::placeholder {
@@ -3464,4 +3465,4 @@ body {
   min-width: 320px;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=style.css.map */
