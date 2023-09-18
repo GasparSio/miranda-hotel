@@ -27,3 +27,36 @@ const clickHeaderSecIcon = headerSecIcon.addEventListener('click', () => {
         cerrarHeader()
     }
 })
+
+let isMouseNearTop = false;
+let isMouseOverHeader = false;
+
+// Escuchar el evento de movimiento del ratón
+window.addEventListener('mousemove', (e) => {
+    // Verificar si el ratón está cerca de la parte superior de la ventana
+    if (e.clientY < 20 || isMouseOverHeader) {
+        isMouseNearTop = true;
+    } else {
+        isMouseNearTop = false;
+    }
+    toggleHeader();
+});
+
+header.addEventListener('mouseover', () => {
+    isMouseOverHeader = true;
+    toggleHeader();
+});
+
+header.addEventListener('mouseout', () => {
+    isMouseOverHeader = false;
+    toggleHeader();
+});
+
+// Función para mostrar u ocultar el header según la posición del ratón
+function toggleHeader() {
+    if (isMouseNearTop && window.scrollY > 0) {
+        header.classList.add('show');
+    } else {
+        header.classList.remove('show');
+    }
+}

@@ -8,6 +8,10 @@
     height: 70px;
     background-color: $background-white;
     box-shadow: 0px 3px 6px 0px #0000004A;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    transition: top 0.2s ease-in-out;
 }
 .header__section-ham-menu{
     width: 17%;
@@ -89,6 +93,12 @@
 }
 
 @media only screen and (min-width: 1000px){
+    //MOUSEOVER STYLES
+    .header__section.show {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+    }
     .header__section{
         position: absolute;
         top: 40px;
