@@ -159,12 +159,11 @@
 .footer__section {
   position: relative;
   width: 100%;
-  max-width: 320px;
   margin: auto;
 }
 
 .footer__section-info-container {
-  width: 90%;
+  width: 70%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -258,7 +257,7 @@
 }
 
 .footer__section-services-container {
-  width: 90%;
+  width: 70%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -309,7 +308,7 @@
 .footer__section-contact-container {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 70%;
   margin: auto;
   margin-top: 30px;
 }
@@ -365,7 +364,7 @@
 
 .footer__section2 {
   width: 100%;
-  max-width: 320px;
+  max-width: 600px;
   margin: auto;
 }
 
@@ -454,7 +453,7 @@
 
 .taketour_section-content {
   width: 90%;
-  max-width: 320px;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -549,7 +548,7 @@
   margin: auto;
   justify-content: center;
   height: auto;
-  max-width: 320px;
+  max-width: 600px;
   padding-top: 20px;
 }
 
@@ -605,11 +604,11 @@
 }
 
 .input__container__departure input[type=date]::-webkit-calendar-picker-indicator {
-  opacity: 0;
+  color: #BEAD8E;
 }
 
 .schedule__section-button {
-  max-width: 320px;
+  max-width: 600px;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -661,7 +660,7 @@
   flex-direction: column;
   width: 100%;
   margin: auto;
-  max-width: 320px;
+  max-width: 600px;
   background-color: #F9F9F9;
   margin-top: 40px;
 }
@@ -784,7 +783,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  max-width: 320px;
+  max-width: 600px;
+  margin-bottom: 30px;
 }
 .rooms__section-info p {
   font-family: Archivo;
@@ -914,7 +914,7 @@
 .video__section-info {
   width: 90%;
   margin: auto;
-  max-width: 320px;
+  max-width: 600px;
   margin-top: 35px;
 }
 .video__section-info h2 {
@@ -951,7 +951,7 @@
 .video__section-video video {
   margin: auto;
   width: 90%;
-  max-width: 320px;
+  max-width: 600px;
   margin-top: 35px;
 }
 
@@ -1376,7 +1376,6 @@
   background-color: #222222;
   display: flex;
   flex-direction: column;
-  max-width: 320px;
   margin: auto;
   align-items: center;
   padding-bottom: 40px;
@@ -1504,7 +1503,7 @@
   }
 }
 .about__video__section {
-  max-width: 320px;
+  max-width: 600px;
   margin: auto;
 }
 
@@ -1516,7 +1515,7 @@
 .about__video__section-video video {
   margin: auto;
   width: 90%;
-  max-width: 320px;
+  max-width: 600px;
   margin-top: 35px;
 }
 
@@ -1550,7 +1549,7 @@
 .about__services__section {
   width: 90%;
   margin: auto;
-  max-width: 320px;
+  max-width: 600px;
   padding-bottom: 35px;
 }
 
@@ -1604,7 +1603,7 @@
 .about__resto__section {
   width: 90%;
   margin: auto;
-  max-width: 320px;
+  max-width: 600px;
   padding-top: 50px;
 }
 
@@ -1617,7 +1616,7 @@
 }
 .about__resto__image img {
   width: 100%;
-  max-width: 320px;
+  max-width: 600px;
   margin: auto;
   border-radius: 2px;
 }
@@ -1885,7 +1884,7 @@
 .about__counter__section {
   width: 90%;
   margin: auto;
-  max-width: 320px;
+  max-width: 600px;
   margin-top: 45px;
   margin-bottom: 50px;
 }
@@ -1958,7 +1957,7 @@
 .about__section-slider {
   margin-top: 12px;
   position: relative;
-  max-width: 320px;
+  max-width: 600px;
   margin: 0 auto;
   margin-top: 50px;
 }
@@ -2121,7 +2120,7 @@
 }
 
 .rooms-slider {
-  max-width: 320px;
+  max-width: 600px;
   margin: auto;
   margin-top: 45px;
 }
@@ -2850,7 +2849,7 @@ body {
 }
 
 .offers__room-image {
-  max-width: 320px;
+  max-width: 600px;
 }
 .offers__room-image img {
   max-width: 100%;
@@ -2926,7 +2925,7 @@ body {
 }
 
 .offers__room-text-container {
-  max-width: 320px;
+  max-width: 600px;
   margin: auto;
 }
 .offers__room-text-container p {
@@ -3011,7 +3010,7 @@ body {
   flex-wrap: wrap;
   width: 100%;
   margin-top: 30px;
-  max-width: 300px;
+  max-width: 600px;
   margin: 30px auto;
 }
 
@@ -3254,7 +3253,7 @@ body {
   flex-direction: column;
   width: 90%;
   margin: auto;
-  max-width: 300px;
+  max-width: 600px;
   background-color: #F8F8F8;
   margin-top: 30px;
   row-gap: 20px;
@@ -3317,12 +3316,12 @@ body {
 .contact__section-map {
   width: 90%;
   margin: auto;
-  max-width: 300px;
+  max-width: 600px;
   margin-top: 40px;
   margin-bottom: 40px;
 }
 .contact__section-map img {
-  max-width: 288px;
+  width: 100%;
 }
 
 @media only screen and (min-width: 1000px) {

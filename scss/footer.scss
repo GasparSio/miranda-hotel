@@ -3,11 +3,10 @@
 .footer__section{
     position: relative;
     width: 100%;
-    max-width: 320px;
     margin: auto;
 }
 .footer__section-info-container{
-    width: 90%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,7 +92,7 @@
 }
 
 .footer__section-services-container{
-    width: 90%;
+    width: 70%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -140,7 +139,7 @@
 .footer__section-contact-container{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 70%;
     margin: auto;
     margin-top: 30px;
     h1{
@@ -189,7 +188,7 @@
 }
 .footer__section2{
     width: 100%;
-    max-width: 320px;
+    max-width: 600px;
     margin: auto;
 }
 .footer__section-copyright-container{
