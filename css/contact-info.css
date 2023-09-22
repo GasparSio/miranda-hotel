@@ -1,0 +1,66 @@
+.contact__section {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  max-width: 600px;
+  background-color: #F8F8F8;
+  margin-top: 30px;
+  row-gap: 20px;
+}
+
+.contact__section-info {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 190px;
+  justify-content: flex-end;
+  background-color: #FFFFFF;
+}
+.contact__section-info span {
+  position: absolute;
+  color: #F8F8F8;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 200px;
+  line-height: 324.38px;
+  letter-spacing: -6px;
+}
+
+.contact__section-info-image {
+  width: 25%;
+  z-index: 1;
+  margin-left: 5%;
+}
+
+.contact__section-info-address {
+  z-index: 1;
+  width: 75%;
+}
+.contact__section-info-address h2 {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #222222;
+}
+.contact__section-info-address p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #777777;
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .contact__section {
+    flex-direction: row;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+    max-width: 750px;
+  }
+  .contact__section-info {
+    width: 32%;
+  }
+}/*# sourceMappingURL=contact-info.css.map */

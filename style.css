@@ -73,6 +73,11 @@
   width: 15%;
   justify-content: center;
   gap: 15px;
+  cursor: pointer;
+  transition: transform;
+}
+.header__section-search-account img:hover {
+  transform: scale(1.02);
 }
 
 .header__mob-menu {
@@ -249,6 +254,11 @@
 .footer__section-icons-container img {
   width: 20px;
   margin-right: 15px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.footer__section-icons-container img:hover {
+  transform: scale(1.02);
 }
 
 .twitter-icon {
@@ -492,6 +502,11 @@
   width: 217px;
   height: 60px;
   border: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.button-taketour:hover {
+  transform: scale(1.02);
 }
 
 .button-learnmore {
@@ -503,6 +518,11 @@
   height: 60px;
   border: 1px solid #BEAD8E;
   margin: 18px 0 50px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.button-learnmore:hover {
+  transform: scale(1.02);
 }
 
 @media only screen and (min-width: 1000px) {
@@ -616,6 +636,11 @@
   flex-direction: column;
   align-items: start;
   width: 90%;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.schedule__section-button:hover {
+  transform: scale(1.02);
 }
 
 .schedule__section-button button {
@@ -714,6 +739,11 @@
   font-weight: 700;
   line-height: 15.23px;
   letter-spacing: 2.8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.about__section-info-button button:hover {
+  transform: scale(1.02);
 }
 
 .about__section-feature {
@@ -972,11 +1002,18 @@
   font-weight: 700;
   line-height: 15.23px;
   letter-spacing: 2.8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.video__section-button button:hover {
+  transform: scale(1.02);
 }
 
 @media only screen and (min-width: 1000px) {
   .video__section {
     flex-direction: column;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 75%, rgb(173, 157, 130) 75%);
   }
   .video__section-info-video {
     display: flex;
@@ -1471,6 +1508,13 @@
   width: 156px;
   height: 49px;
 }
+.about__about__section-links a {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.about__about__section-links a:hover {
+  transform: scale(1.02);
+}
 
 .about-link-home {
   font-size: 16px;
@@ -1662,6 +1706,11 @@
   font-weight: 700;
   line-height: 15.23px;
   letter-spacing: 2.8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.about__resto-info-button button:hover {
+  transform: scale(1.02);
 }
 
 @media only screen and (min-width: 1000px) {
@@ -2077,6 +2126,13 @@
   width: 156px;
   height: 49px;
 }
+.rooms__about__section-links a {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.rooms__about__section-links a:hover {
+  transform: scale(1.02);
+}
 
 .rooms-link-home {
   font-size: 16px;
@@ -2279,6 +2335,13 @@
   width: 156px;
   height: 49px;
 }
+.room__detail-about__section-links a {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.room__detail-about__section-links a:hover {
+  transform: scale(1.02);
+}
 
 .room-detail-link-home {
   font-size: 16px;
@@ -2289,6 +2352,13 @@
   color: #222222;
   text-decoration: none;
 }
+.room-detail-link-home a {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.room-detail-link-home a:hover {
+  transform: scale(1.02);
+}
 
 .room-detail-link-about {
   font-size: 16px;
@@ -2298,6 +2368,13 @@
   letter-spacing: -0.48px;
   color: #BEAD8E;
   text-decoration: none;
+}
+.room-detail-link-about a {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.room-detail-link-about a:hover {
+  transform: scale(1.02);
 }
 
 @media only screen and (min-width: 1000px) {
@@ -3046,6 +3123,11 @@ body {
   font-weight: 700;
   line-height: 15.23px;
   letter-spacing: 2.8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.offers__room-button-container button:hover {
+  transform: scale(1.02);
 }
 
 @media only screen and (min-width: 1000px) {
@@ -3128,6 +3210,11 @@ body {
   justify-content: center;
   position: relative;
   border-radius: 7px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.offers__detail-rooms-slider:hover {
+  transform: scale(1.02);
 }
 .offers__detail-rooms-slider h3 {
   font-family: "Old Standard TT";
@@ -3428,6 +3515,11 @@ body {
   letter-spacing: 3.2px;
   text-align: center;
   border: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.contact__form-button input:hover {
+  transform: scale(1.02);
 }
 
 @media only screen and (min-width: 1000px) {

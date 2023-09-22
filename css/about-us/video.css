@@ -1,5 +1,5 @@
 .about__video__section {
-  max-width: 320px;
+  max-width: 600px;
   margin: auto;
 }
 
@@ -11,7 +11,7 @@
 .about__video__section-video video {
   margin: auto;
   width: 90%;
-  max-width: 320px;
+  max-width: 600px;
   margin-top: 35px;
 }
 

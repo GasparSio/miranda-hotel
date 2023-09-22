@@ -64,12 +64,19 @@
         font-weight: $weight-700;
         line-height: 15.23px;
         letter-spacing: 2.8px;
+        cursor: pointer;
+        transition: transform 0.2s;
+        &:hover {
+            transform: scale(1.02);
+        }
     }
 }
 
 @media only screen and (min-width: 1000px){
     .video__section{
         flex-direction: column;
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 75%, rgba(173,157,130,1) 75%); 
     }
     .video__section-info-video{
         display: flex;

@@ -13,7 +13,7 @@
   margin: auto;
   justify-content: center;
   height: auto;
-  max-width: 320px;
+  max-width: 600px;
   padding-top: 20px;
 }
 
@@ -69,11 +69,11 @@
 }
 
 .input__container__departure input[type=date]::-webkit-calendar-picker-indicator {
-  opacity: 0;
+  color: #BEAD8E;
 }
 
 .schedule__section-button {
-  max-width: 320px;
+  max-width: 600px;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;

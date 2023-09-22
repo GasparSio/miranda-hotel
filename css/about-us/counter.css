@@ -2,7 +2,7 @@
 .about__counter__section {
   width: 90%;
   margin: auto;
-  max-width: 320px;
+  max-width: 600px;
   margin-top: 45px;
   margin-bottom: 50px;
 }
@@ -75,7 +75,7 @@
 .about__section-slider {
   margin-top: 12px;
   position: relative;
-  max-width: 320px;
+  max-width: 600px;
   margin: 0 auto;
   margin-top: 50px;
 }

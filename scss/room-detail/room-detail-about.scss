@@ -42,6 +42,13 @@
     background-color: $background-white;
     width: 156px;
     height: 49px;
+    a {
+        cursor: pointer;
+        transition: transform 0.2s;
+        &:hover {
+            transform: scale(1.02);
+        }
+    }
 }
 .room-detail-link-home{
     font-size: 16px;
@@ -51,6 +58,13 @@
     letter-spacing: -0.48px;
     color: $background-black;
     text-decoration: none;
+    a{
+        cursor: pointer;
+        transition: transform 0.2s;
+        &:hover {
+            transform: scale(1.02);
+        }
+    }
 }
 .room-detail-link-about{
     font-size: 16px;
@@ -60,6 +74,13 @@
     letter-spacing: -0.48px;
     color: $color-botton;
     text-decoration: none;
+    a{
+        cursor: pointer;
+        transition: transform 0.2s;
+        &:hover {
+            transform: scale(1.02);
+        }
+    }
 }
 
 

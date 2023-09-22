@@ -67,6 +67,11 @@
     width: 15%;
     justify-content: center;
     gap: 15px;
+    cursor: pointer;
+    transition: transform;
+    img:hover {
+        transform: scale(1.02);
+    }
 }
 .header__mob-menu{
     position: absolute;

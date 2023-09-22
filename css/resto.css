@@ -1,0 +1,106 @@
+.about__resto__section {
+  width: 90%;
+  margin: auto;
+  max-width: 600px;
+  padding-top: 50px;
+}
+
+.about__resto__section-container {
+  box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.168627451);
+}
+
+.about__resto__image {
+  margin-bottom: 40px;
+}
+.about__resto__image img {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 2px;
+}
+
+.about__resto__info h2 {
+  margin-bottom: 20px;
+  font-family: Archivo;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15.23px;
+  letter-spacing: 2.8px;
+  color: #777777;
+}
+.about__resto__info h1 {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49.44px;
+  letter-spacing: -1.05px;
+  color: #222222;
+  margin-bottom: 12px;
+}
+.about__resto__info p {
+  font-family: Archivo;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+}
+
+.about__resto-info-button {
+  width: 90%;
+  margin-top: 25px;
+}
+.about__resto-info-button button {
+  width: 216px;
+  height: 60px;
+  background-color: #BEAD8E;
+  color: #FFFFFF;
+  border: none;
+  font-size: 14px;
+  font-family: Archivo;
+  font-weight: 700;
+  line-height: 15.23px;
+  letter-spacing: 2.8px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .about__resto__section {
+    width: 80%;
+    margin: auto;
+    max-width: none;
+  }
+  .about__resto__section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .about__resto__image {
+    width: 50%;
+    margin-bottom: 0;
+  }
+  .about__resto__image img {
+    max-width: none;
+  }
+  .about__resto__info {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about__resto__info h2 {
+    margin-bottom: 8px;
+  }
+  .about__resto__info h1 {
+    font-size: 38px;
+    line-height: 41.44px;
+    margin-bottom: 6px;
+  }
+  .about__resto__info p {
+    font-size: 12px;
+  }
+  .about__resto-info-button {
+    margin-top: 10px;
+  }
+  .about__resto-info-button button {
+    height: 57px;
+  }
+}/*# sourceMappingURL=resto.css.map */

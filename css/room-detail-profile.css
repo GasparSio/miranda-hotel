@@ -1,0 +1,71 @@
+.room__detail-profile {
+  width: 90%;
+  margin: auto;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  margin-top: 50px;
+}
+
+.room__detail-profile-image {
+  width: 100%;
+  margin: auto;
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.profile-image-face {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.profile-image-circle {
+  position: absolute;
+  left: 56%;
+  top: -6%;
+}
+
+.profile-image-check {
+  position: absolute;
+  left: 61%;
+  top: 4%;
+}
+
+.room__detail-profile-info h1 {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: -0.9px;
+  color: #222222;
+  text-align: center;
+  margin-top: 30px;
+}
+.room__detail-profile-info h2 {
+  font-family: Archivo;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15.23px;
+  letter-spacing: 2.8px;
+  color: #BEAD8E;
+  text-align: center;
+  margin-top: 15px;
+}
+.room__detail-profile-info p {
+  font-family: Archivo;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777777;
+  text-align: center;
+  margin-top: 15px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .room__detail-profile {
+    margin-left: 15%;
+  }
+}/*# sourceMappingURL=room-detail-profile.css.map */

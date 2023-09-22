@@ -47,6 +47,11 @@
     width: 217px;
     height: 60px;
     border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+    &:hover {
+        transform: scale(1.02);
+    }
 }
 .button-learnmore{
     background-color: #bead8e00;
@@ -57,6 +62,11 @@
     height: 60px;
     border: 1px solid $color-botton;
     margin: 18px 0 50px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    &:hover {
+        transform: scale(1.02);
+    }
 }
 
 @media only screen and (min-width: 1000px){

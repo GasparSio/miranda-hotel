@@ -59,6 +59,11 @@
     justify-content: center;
     position: relative;
     border-radius: 7px;
+    cursor: pointer;
+        transition: transform 0.2s;
+        &:hover {
+            transform: scale(1.02);
+        }
     h3{
         font-family: $old-standard-font;
         font-weight: $weight-400;

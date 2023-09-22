@@ -8,6 +8,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  transition: top 0.2s ease-in-out;
 }
 
 .header__section-ham-menu {
@@ -99,7 +100,7 @@
 }
 
 @media only screen and (min-width: 1000px) {
-  .header__section .show {
+  .header__section.show {
     position: sticky;
     top: 0;
     z-index: 999;
@@ -153,6 +154,4 @@
   .header__section-ham-menu {
     display: none;
   }
-}
-
-/*# sourceMappingURL=header.css.map */
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,122 @@
+.schedule__section {
+  width: 100%;
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+}
+
+.schedule__section-calendar {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: self-start;
+  margin: auto;
+  justify-content: center;
+  height: auto;
+  max-width: 600px;
+  padding-top: 20px;
+}
+
+.input__container__arrival label {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 700;
+  line-height: 18.75px;
+}
+
+.input__container__arrival-date {
+  margin: 7px 0 7px 0;
+}
+
+.input__container__arrival-date input[type=date] {
+  display: flex;
+  padding-bottom: 10px;
+  flex-direction: row-reverse;
+  background: transparent;
+  color: #686868;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom-color: #BEAD8E;
+  width: 290px;
+}
+
+.input__container__departure label {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 700;
+  line-height: 18.75px;
+}
+
+.input__container__departure input[type=date] {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 7px 0 7px 0;
+  background-color: transparent;
+  background: url("../../img/img-search.png");
+  background-size: 5px 5px;
+  background-repeat: repeat;
+  background-position: 90%;
+  color: #686868;
+  padding-bottom: 10px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom-color: #BEAD8E;
+  width: 290px;
+}
+
+.input__container__departure input[type=date]::-webkit-calendar-picker-indicator {
+  color: #BEAD8E;
+}
+
+.schedule__section-button {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 90%;
+}
+
+.schedule__section-button button {
+  width: 250px;
+  height: 60px;
+  background-color: #BEAD8E;
+  color: #FFFFFF;
+  border: none;
+  font-size: 14px;
+  font-family: Archivo;
+  font-weight: 700;
+  line-height: 15.23px;
+  letter-spacing: 2.8px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .schedule__section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .schedule__section-calendar {
+    flex-direction: row;
+    width: 776px;
+    padding-top: 0;
+    max-width: none;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+  }
+  .schedule__section-button {
+    width: 300px;
+    margin: 0;
+    max-width: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}/*# sourceMappingURL=schedule.css.map */
