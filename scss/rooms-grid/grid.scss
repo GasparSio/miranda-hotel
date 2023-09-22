@@ -119,6 +119,8 @@
     }
     .rooms__slider__section{
         background-color: $background-grey-light;
+        max-width: 1024px;
+        margin: auto;
     }
     .rooms-slider{
         max-width: 300px;

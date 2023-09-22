@@ -71,6 +71,10 @@
 
 
 @media only screen and (min-width: 1000px){
+    .rooms__about__section-general{
+        margin: auto;
+        max-width: 1024px;
+    }
     .rooms__about__section-info{
         max-width: 582px;
         margin: 0;

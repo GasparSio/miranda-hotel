@@ -82,7 +82,7 @@
 
 .header__mob-menu {
   position: absolute;
-  top: 73px;
+  top: 70px;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -419,14 +419,14 @@
 
 @media only screen and (min-width: 1000px) {
   .footer__section {
-    max-width: 100%;
+    max-width: 1024px;
     display: flex;
     margin: auto;
     margin-top: 35px;
     padding: 0 30px;
   }
   .footer__section2 {
-    max-width: 100%;
+    max-width: 1024px;
   }
   .footer__section-info-container {
     width: 33%;
@@ -533,7 +533,7 @@
   }
   .taketour_section-content {
     width: 70%;
-    max-width: none;
+    max-width: 1024px;
   }
   .taketour_section-content p {
     margin-top: 130px;
@@ -971,18 +971,20 @@
   font-weight: 400;
   line-height: 24px;
   color: #C2C2C2;
+  max-width: 400px;
 }
 
 .video__section-video {
   display: flex;
   flex-direction: column;
   width: 100%;
-}
-.video__section-video video {
   margin: auto;
   width: 90%;
   max-width: 600px;
   margin-top: 35px;
+}
+.video__section-video iframe {
+  height: 250px;
 }
 
 .video__section-button {
@@ -1020,6 +1022,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    max-width: 1024px;
+    margin: auto;
   }
   .video__section-info {
     width: auto;
@@ -1028,10 +1032,11 @@
   }
   .video__section-video {
     width: auto;
-  }
-  .video__section-video video {
     max-width: 630px;
     border-radius: 8px;
+  }
+  .video__section-video iframe {
+    width: 550px;
   }
 }
 .features__section {
@@ -1201,11 +1206,15 @@
   margin-bottom: 30px;
 }
 
-.icon-food {
+.icon-food-mobil {
   position: absolute;
   width: 65px;
   right: 0%;
   top: -5%;
+}
+
+.icon-food-desktop {
+  display: none;
 }
 
 .food__section-info {
@@ -1361,11 +1370,16 @@
 }
 
 @media only screen and (min-width: 1000px) {
-  .icon-food {
+  .icon-food-desktop {
     position: absolute;
-    width: 118px;
-    left: 2%;
-    top: -8%;
+    width: 100px;
+    left: 3%;
+    top: -46%;
+    z-index: 999;
+    display: flex;
+  }
+  .icon-food-mobil {
+    display: none;
   }
   .food__section {
     width: 100%;
@@ -1537,6 +1551,10 @@
 }
 
 @media only screen and (min-width: 1000px) {
+  .about__about__section-general {
+    max-width: 1024px;
+    margin: auto;
+  }
   .about__about__section-info {
     max-width: 582px;
     margin: 0;
@@ -1576,7 +1594,7 @@
 
 @media only screen and (min-width: 1000px) {
   .about__video__section {
-    max-width: 100%;
+    max-width: 1024px;
     background-color: #F9F9F9;
   }
   .about__video__section-video video {
@@ -1628,7 +1646,7 @@
 
 @media only screen and (min-width: 1000px) {
   .about__services__section {
-    max-width: 100%;
+    max-width: 1024px;
     width: 100%;
     background-color: #F9F9F9;
   }
@@ -1717,7 +1735,7 @@
   .about__resto__section {
     width: 80%;
     margin: auto;
-    max-width: none;
+    max-width: 1024px;
   }
   .about__resto__section-container {
     display: flex;
@@ -2155,6 +2173,10 @@
 }
 
 @media only screen and (min-width: 1000px) {
+  .rooms__about__section-general {
+    margin: auto;
+    max-width: 1024px;
+  }
   .rooms__about__section-info {
     max-width: 582px;
     margin: 0;
@@ -2283,6 +2305,8 @@
   }
   .rooms__slider__section {
     background-color: #F9F9F9;
+    max-width: 1024px;
+    margin: auto;
   }
   .rooms-slider {
     max-width: 300px;
@@ -2378,6 +2402,10 @@
 }
 
 @media only screen and (min-width: 1000px) {
+  .room__detail-about__section-general {
+    margin: auto;
+    max-width: 1024px;
+  }
   .room__detail-about__section-info {
     max-width: 582px;
     margin: 0;
@@ -3311,7 +3339,7 @@ body {
     justify-content: space-evenly;
   }
   .offers__detail-line {
-    max-width: none;
+    max-width: 1024px;
     margin: 0 auto;
     width: 90%;
   }
@@ -3407,16 +3435,13 @@ body {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-.contact__section-map img {
+.contact__section-map iframe {
   width: 100%;
 }
 
 @media only screen and (min-width: 1000px) {
   .contact__section-map {
     max-width: 750px;
-  }
-  .contact__section-map img {
-    max-width: 100%;
   }
 }
 .contact__section-form {

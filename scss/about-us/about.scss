@@ -71,6 +71,10 @@
 
 
 @media only screen and (min-width: 1000px){
+    .about__about__section-general{
+        max-width: 1024px;
+        margin: auto;
+    }
     .about__about__section-info{
         max-width: 582px;
         margin: 0;

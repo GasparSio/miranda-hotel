@@ -35,18 +35,21 @@
         font-weight: $weight-400;
         line-height: 24px;
         color: $color-grey-light-letter;
+        max-width: 400px;
     }
 }
 .video__section-video{
     display: flex;
     flex-direction: column;
     width: 100%;
-    video{
-        margin: auto;
-        width: 90%;
-        max-width: 600px;
-        margin-top: 35px;
+    margin: auto;
+    width: 90%;
+    max-width: 600px;
+    margin-top: 35px;
+    iframe{
+        height: 250px;
     }
+
 }
 .video__section-button{
     max-width: 320px;
@@ -83,6 +86,8 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        max-width: 1024px;
+        margin: auto;
     }
     .video__section-info{
         width: auto;
@@ -91,10 +96,13 @@
     }
     .video__section-video{
         width: auto;
-        video{
-            max-width: 630px;
-            border-radius: 8px;
+        max-width: 630px;
+        border-radius: 8px;
+        iframe{
+            width: 550px;
         }
+
+
     }
 }
 
