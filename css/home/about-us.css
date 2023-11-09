@@ -57,6 +57,11 @@
   font-weight: 700;
   line-height: 15.23px;
   letter-spacing: 2.8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.about__section-info-button button:hover {
+  transform: scale(1.02);
 }
 
 .about__section-feature {

@@ -60,13 +60,18 @@
   font-weight: 700;
   line-height: 15.23px;
   letter-spacing: 2.8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.about__resto-info-button button:hover {
+  transform: scale(1.02);
 }
 
 @media only screen and (min-width: 1000px) {
   .about__resto__section {
     width: 80%;
     margin: auto;
-    max-width: none;
+    max-width: 1024px;
   }
   .about__resto__section-container {
     display: flex;

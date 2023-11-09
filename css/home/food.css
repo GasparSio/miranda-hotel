@@ -8,11 +8,15 @@
   margin-bottom: 30px;
 }
 
-.icon-food {
+.icon-food-mobil {
   position: absolute;
   width: 65px;
   right: 0%;
   top: -5%;
+}
+
+.icon-food-desktop {
+  display: none;
 }
 
 .food__section-info {
@@ -168,11 +172,16 @@
 }
 
 @media only screen and (min-width: 1000px) {
-  .icon-food {
+  .icon-food-desktop {
     position: absolute;
-    width: 118px;
-    left: 2%;
-    top: -8%;
+    width: 100px;
+    left: 3%;
+    top: -46%;
+    z-index: 999;
+    display: flex;
+  }
+  .icon-food-mobil {
+    display: none;
   }
   .food__section {
     width: 100%;

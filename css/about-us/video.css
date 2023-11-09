@@ -28,7 +28,7 @@
 
 @media only screen and (min-width: 1000px) {
   .about__video__section {
-    max-width: 100%;
+    max-width: 1024px;
     background-color: #F9F9F9;
   }
   .about__video__section-video video {

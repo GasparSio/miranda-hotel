@@ -60,6 +60,11 @@
   justify-content: center;
   position: relative;
   border-radius: 7px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.offers__detail-rooms-slider:hover {
+  transform: scale(1.02);
 }
 .offers__detail-rooms-slider h3 {
   font-family: "Old Standard TT";
@@ -156,7 +161,7 @@
     justify-content: space-evenly;
   }
   .offers__detail-line {
-    max-width: none;
+    max-width: 1024px;
     margin: 0 auto;
     width: 90%;
   }

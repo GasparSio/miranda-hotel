@@ -39,6 +39,11 @@
   font-weight: 700;
   line-height: 15.23px;
   letter-spacing: 2.8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.offers__room-button-container button:hover {
+  transform: scale(1.02);
 }
 
 @media only screen and (min-width: 1000px) {

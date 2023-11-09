@@ -94,6 +94,11 @@
   letter-spacing: 3.2px;
   text-align: center;
   border: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.contact__form-button input:hover {
+  transform: scale(1.02);
 }
 
 @media only screen and (min-width: 1000px) {

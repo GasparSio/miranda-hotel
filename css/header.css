@@ -72,11 +72,16 @@
   width: 15%;
   justify-content: center;
   gap: 15px;
+  cursor: pointer;
+  transition: transform;
+}
+.header__section-search-account img:hover {
+  transform: scale(1.02);
 }
 
 .header__mob-menu {
   position: absolute;
-  top: 73px;
+  top: 70px;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -154,4 +159,6 @@
   .header__section-ham-menu {
     display: none;
   }
-}/*# sourceMappingURL=header.css.map */
+}
+
+/*# sourceMappingURL=header.css.map */

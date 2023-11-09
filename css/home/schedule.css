@@ -81,6 +81,11 @@
   flex-direction: column;
   align-items: start;
   width: 90%;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.schedule__section-button:hover {
+  transform: scale(1.02);
 }
 
 .schedule__section-button button {

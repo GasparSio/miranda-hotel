@@ -1,5 +1,18 @@
 {
   "dependencies": {
     "swiper": "^10.1.0"
-  }
+  },
+  "name": "miranda-hotel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf build && mkdir -p build && cp -r index.html about.html contact.html offers.html room-detail.html rooms-grid.html style.css js img build",
+    "deploy": "aws s3 sync build/ s3://gasparsio-miranda-hotel --delete --profile admin"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

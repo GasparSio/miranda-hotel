@@ -5,16 +5,13 @@
   margin-top: 40px;
   margin-bottom: 40px;
 }
-.contact__section-map img {
+.contact__section-map iframe {
   width: 100%;
 }
 
 @media only screen and (min-width: 1000px) {
   .contact__section-map {
     max-width: 750px;
-  }
-  .contact__section-map img {
-    max-width: 100%;
   }
 }
 

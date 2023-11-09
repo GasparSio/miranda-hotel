@@ -48,6 +48,11 @@
   width: 217px;
   height: 60px;
   border: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.button-taketour:hover {
+  transform: scale(1.02);
 }
 
 .button-learnmore {
@@ -59,6 +64,11 @@
   height: 60px;
   border: 1px solid #BEAD8E;
   margin: 18px 0 50px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.button-learnmore:hover {
+  transform: scale(1.02);
 }
 
 @media only screen and (min-width: 1000px) {
@@ -69,7 +79,7 @@
   }
   .taketour_section-content {
     width: 70%;
-    max-width: none;
+    max-width: 1024px;
   }
   .taketour_section-content p {
     margin-top: 130px;

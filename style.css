@@ -2239,7 +2239,7 @@
   line-height: 17.41px;
   color: #BEAD8E;
 }
-.rooms__grid-price button {
+.rooms__grid-price a {
   font-family: Archivo;
   font-weight: 700;
   font-size: 16px;
@@ -2371,6 +2371,7 @@
   font-size: 16px;
   font-family: Archivo;
   font-weight: 700;
+  z-index: 999;
   line-height: 17.41px;
   letter-spacing: -0.48px;
   color: #222222;
@@ -3388,7 +3389,6 @@ body {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 200px;
-  line-height: 324.38px;
   letter-spacing: -6px;
 }
 
