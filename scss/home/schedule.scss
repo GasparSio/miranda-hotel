@@ -26,21 +26,38 @@
         line-height: 18.75px;
     }
 }
-.input__container__arrival-date{
+.input-calendar-container{
     margin: 7px 0 7px 0;
 } 
-.input__container__arrival-date input[type="date"]{
+.input-calendar{
+    position: relative;
     display: flex;
-    padding-bottom: 10px;
+    padding-bottom: 7px;
     flex-direction: row-reverse;
-    background: transparent;
-    color: $letterColor-grey;
+    background-color: transparent;
+    color: #b3a5a5;
     border-top: none;
     border-right: none;
     border-left: none;
     border-bottom-color: $color-botton;
     width: 290px;
+    padding-left: 30px;
 }
+.input-calendar[type="date"]::-webkit-calendar-picker-indicator::before{
+    background-image: none;
+}
+.input-calendar[type="date"]::-webkit-calendar-picker-indicator{
+    // background-image: url("../../img/home/icon-calendar.png") no-repeat center;
+    background-size: 20px 20px;
+    height: 20px;
+    width: 100%;
+    background-position-x: 1%;
+    position: absolute;
+    cursor: pointer;
+    color: red;
+    filter: saturate(0.1);
+}
+
 .input__container__departure{
     label{
         color: #FFFFFF;
@@ -50,26 +67,7 @@
         line-height: 18.75px;
     }
 }
-.input__container__departure input[type="date"]{
-    display: flex;
-    flex-direction: row-reverse;
-    margin: 7px 0 7px 0;
-    background-color: transparent;
-    background: url('../../img/img-search.png');
-    background-size: 5px 5px;
-    background-repeat: repeat;
-    background-position: 90%;
-    color: #686868;
-    padding-bottom: 10px;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    border-bottom-color: $color-botton;
-    width: 290px;
-}
-.input__container__departure input[type="date"]::-webkit-calendar-picker-indicator{
-    color: $color-botton;
-}
+
 .schedule__section-button{
     max-width: 600px;
     margin: auto;
@@ -120,4 +118,11 @@
         margin-top: 30px;
         margin-bottom: 30px;
     }
+    .input-calendar-container{
+        margin: 0;
+    }
+    .input-calendar{
+        padding-top: 5px;
+    }
+
 }
