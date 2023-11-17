@@ -56,7 +56,10 @@
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    button{
+    a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 216px;
         height: 60px;
         background-color: $color-botton;
@@ -68,6 +71,7 @@
         line-height: 15.23px;
         letter-spacing: 2.8px;
         cursor: pointer;
+        text-decoration: none;
         transition: transform 0.2s;
         &:hover {
             transform: scale(1.02);

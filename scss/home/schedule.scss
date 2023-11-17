@@ -43,9 +43,7 @@
     width: 290px;
     padding-left: 30px;
 }
-// .input-calendar[type="date"]::-webkit-calendar-picker-indicator::before{
-//     background-image: none;
-// }
+
 .input-calendar[type="date"]::-webkit-calendar-picker-indicator{
     // background-image: url("../../img/home/icon-calendar.png") no-repeat center;
     background-size: 20px 20px;
@@ -83,7 +81,10 @@
         transform: scale(1.02);
     }
 }
-.schedule__section-button button{
+.schedule__section-button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 250px;
     height: 60px;
     background-color: $color-botton;
@@ -94,6 +95,7 @@
     font-weight: $weight-700;
     line-height: 15.23px;
     letter-spacing: 2.8px;
+    text-decoration: none;
 }
 @media only screen and (min-width: 1000px){
     .schedule__section{

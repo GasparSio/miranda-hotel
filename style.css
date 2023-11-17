@@ -504,6 +504,10 @@
   border: none;
   cursor: pointer;
   transition: transform 0.2s;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .button-taketour:hover {
   transform: scale(1.02);
@@ -520,6 +524,10 @@
   margin: 18px 0 50px;
   cursor: pointer;
   transition: transform 0.2s;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .button-learnmore:hover {
   transform: scale(1.02);
@@ -634,7 +642,10 @@
   transform: scale(1.02);
 }
 
-.schedule__section-button button {
+.schedule__section-button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 250px;
   height: 60px;
   background-color: #BEAD8E;
@@ -645,6 +656,7 @@
   font-weight: 700;
   line-height: 15.23px;
   letter-spacing: 2.8px;
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -725,7 +737,8 @@
   margin: auto;
   margin-top: 20px;
 }
-.about__section-info-button button {
+.about__section-info-button a {
+  text-decoration: none;
   width: 216px;
   height: 60px;
   background-color: #BEAD8E;
@@ -736,10 +749,13 @@
   font-weight: 700;
   line-height: 15.23px;
   letter-spacing: 2.8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   transition: transform 0.2s;
 }
-.about__section-info-button button:hover {
+.about__section-info-button a:hover {
   transform: scale(1.02);
 }
 
@@ -990,7 +1006,10 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.video__section-button button {
+.video__section-button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 216px;
   height: 60px;
   background-color: #BEAD8E;
@@ -1002,9 +1021,10 @@
   line-height: 15.23px;
   letter-spacing: 2.8px;
   cursor: pointer;
+  text-decoration: none;
   transition: transform 0.2s;
 }
-.video__section-button button:hover {
+.video__section-button a:hover {
   transform: scale(1.02);
 }
 

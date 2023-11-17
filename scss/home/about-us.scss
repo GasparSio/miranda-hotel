@@ -45,7 +45,8 @@
     width: 90%;
     margin: auto;
     margin-top: 20px;
-    button{
+    a{
+        text-decoration: none;
         width: 216px;
         height: 60px;
         background-color: $color-botton;
@@ -56,6 +57,9 @@
         font-weight: $weight-700;
         line-height: 15.23px;
         letter-spacing: 2.8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         cursor: pointer;
         transition: transform 0.2s;
         &:hover {

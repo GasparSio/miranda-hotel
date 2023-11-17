@@ -49,6 +49,10 @@
     border: none;
     cursor: pointer;
     transition: transform 0.2s;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     &:hover {
         transform: scale(1.02);
     }
@@ -64,6 +68,10 @@
     margin: 18px 0 50px;
     cursor: pointer;
     transition: transform 0.2s;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     &:hover {
         transform: scale(1.02);
     }
