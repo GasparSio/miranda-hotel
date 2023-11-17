@@ -599,10 +599,6 @@
   padding-left: 30px;
 }
 
-.input-calendar[type=date]::-webkit-calendar-picker-indicator::before {
-  background-image: none;
-}
-
 .input-calendar[type=date]::-webkit-calendar-picker-indicator {
   background-size: 20px 20px;
   height: 20px;
