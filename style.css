@@ -613,6 +613,7 @@
   height: 20px;
   width: 100%;
   background-position-x: 1%;
+  color: #BEAD8E;
   position: absolute;
   cursor: pointer;
   filter: saturate(0.1);
@@ -1730,7 +1731,11 @@
   width: 90%;
   margin-top: 25px;
 }
-.about__resto-info-button button {
+.about__resto-info-button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
   width: 216px;
   height: 60px;
   background-color: #BEAD8E;
@@ -1744,7 +1749,7 @@
   cursor: pointer;
   transition: transform 0.2s;
 }
-.about__resto-info-button button:hover {
+.about__resto-info-button a:hover {
   transform: scale(1.02);
 }
 
@@ -2891,7 +2896,11 @@ body {
   line-height: 17.41px;
   color: #BEAD8E;
 }
-.room__detail-grid-price button {
+.room__detail-grid-price a {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
   font-family: Archivo;
   font-weight: 700;
   font-size: 16px;
@@ -3158,7 +3167,11 @@ body {
   max-width: 300px;
   margin-bottom: 40px;
 }
-.offers__room-button-container button {
+.offers__room-button-container a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 216px;
   height: 60px;
   background-color: #BEAD8E;
@@ -3172,7 +3185,7 @@ body {
   cursor: pointer;
   transition: transform 0.2s;
 }
-.offers__room-button-container button:hover {
+.offers__room-button-container a:hover {
   transform: scale(1.02);
 }
 
@@ -3300,7 +3313,11 @@ body {
   line-height: 17.41px;
   color: #BEAD8E;
 }
-.offers__detail-grid-price button {
+.offers__detail-grid-price a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
   font-family: Archivo;
   font-weight: 700;
   font-size: 16px;

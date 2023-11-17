@@ -102,7 +102,11 @@
         line-height: 17.41px;
         color: $color-botton;
     }
-    button{
+    a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
         font-family: $archivo-font;
         font-weight: $weight-700;
         font-size: 16px;
