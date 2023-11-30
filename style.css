@@ -609,14 +609,14 @@
 
 .input-calendar[type=date]::-webkit-calendar-picker-indicator {
   background-image: url("../../img/home/icon-calendar.png") no-repeat center;
-  background-size: 20px 20px;
+  background-size: 15px 15px;
   height: 20px;
   width: 100%;
   background-position-x: 1%;
   color: #BEAD8E;
   position: absolute;
   cursor: pointer;
-  filter: saturate(0.1);
+  filter: invert(0.8);
 }
 
 .input__container__departure label {
