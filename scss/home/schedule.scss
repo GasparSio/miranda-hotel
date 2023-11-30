@@ -43,6 +43,9 @@
     width: 290px;
     padding-left: 30px;
 }
+.input-calendar-departure{
+    padding-top: 5px;
+}
 
 .input-calendar[type="date"]::-webkit-calendar-picker-indicator{
     background-image: url("../../img/home/icon-calendar.png") no-repeat center;
@@ -126,5 +129,4 @@
     .input-calendar{
         padding-top: 5px;
     }
-
 }
